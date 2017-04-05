@@ -1,0 +1,30 @@
+#project-logo{
+  max-height: 46px;
+}
+.bottom-row{
+	padding: 35px;
+/*	background-color: #ebebeb;*/
+}
+.btn-social, .btn-outline{
+	border: 1.7px solid red;
+    border-radius: 49%;
+    padding: 10px 13px;
+    font-size: 20px;
+    color: red;
+}
+
+.btn-social:hover{
+	background-color: red;
+	color: white;
+}
+/*.sm-width{
+	max-width: 90%;
+	display: block;
+    margin: auto;
+   
+}*/
+
+.carousel-inner{
+	max-width: 80%;
+	margin:auto;
+}
