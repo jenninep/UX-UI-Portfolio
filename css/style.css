@@ -620,8 +620,8 @@ a.btn {
 
 .btn-primary-filled:hover {
   color: white;
-  background: #ad8b60;
-  border: 2px solid #ad8b60;
+  background: #ccc;
+  border: 2px solid #ccc;
 }
 
 /* / End Primary Button */
