@@ -98,9 +98,6 @@ ul, ol {
   margin-bottom: 20px;
 }
 
-.myname{
-  font-size: 13px;
-}
 
 .list-featured {
   list-style: none;
@@ -1397,6 +1394,10 @@ a.list-group-item .list-group-item-heading, button.list-group-item .list-group-i
   display: none;
 }
 
+.progress-bar-purple{
+  background-color: #8118af;
+}
+
 .progress-bar span {
   border-radius: 15px;
   display: inline-block;
@@ -1501,7 +1502,7 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
 
 .navbar-brand > img {
   width: auto;
-  max-height: 101px;
+  max-height: 55px;
 }
 
 .navbar-toggle .icon-bar {
@@ -1821,10 +1822,10 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
 }
 
 .banner-info {
-  background: rgba(255, 255, 255, 0.75);
+ /* background: rgba(255, 255, 255, 0.75);*/
   width: 400px;
   margin: 0 auto;
-  padding: 50px 0;
+/*  padding: 50px 0;*/
 }
 
 .banner-info.primary {
@@ -2329,15 +2330,15 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
 }
 
 .carousel-control {
-  font-size: 20px;
+  font-size: 16px;
   text-shadow: none;
 }
 
 .carousel-control .lnr-chevron-left {
   position: absolute;
   color: white;
-  background: #333333;
-  top: 48%;
+  background: #848282;
+  top: 255px;
   left: 0;
   z-index: 5;
   display: inline-block;
@@ -2349,8 +2350,8 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
 .carousel-control .lnr-chevron-right {
   position: absolute;
   color: white;
-  background: #333333;
-  top: 48%;
+  background: #848282;
+  top: 255px;
   right: 0;
   z-index: 5;
   display: inline-block;
@@ -2366,14 +2367,14 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
 }
 
 .about-description {
-  background-color: #f8f8f8;
+/*  background-color: #f8f8f8;*/
   padding: 30px;
 }
 
 .about-img {
   position: absolute;
-  background: url(../images/about-img.jpg) scroll center no-repeat;
-  background-size: cover;
+  background: url(../images/pic1.jpg) scroll center no-repeat;
+  background-size: contain;
   height: 100%;
 }
 
@@ -3942,6 +3943,26 @@ footer .social a {
   .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .name-title{
+    top: 35%;
+      position: absolute;
+      left: 27%;
+  }
+  .carousel-control {
+  font-size: 13px;
+}
+  .carousel-control .lnr-chevron-left{
+        top: 103px;
+        left: -9px;
+        padding: 8px;
+  }
+  .carousel-control .lnr-chevron-right{
+        top: 103px;
+        right: -9px;
+        padding: 8px;
   }
 }
 /* End Min Widths */
