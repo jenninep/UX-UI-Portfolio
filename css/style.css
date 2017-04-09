@@ -501,7 +501,7 @@ input:focus {
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   border-radius: 0;
-  padding: 10px 18px;
+  padding: 10px 16px;
   margin: 5px;
 }
 
@@ -1501,7 +1501,7 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
 
 .navbar-brand > img {
   width: auto;
-  max-height: 90px;
+  max-height: 101px;
 }
 
 .navbar-toggle .icon-bar {
@@ -2343,7 +2343,7 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
   display: inline-block;
   margin-top: -10px;
   float: left;
-  padding: 15px;
+  padding: 10px;
 }
 
 .carousel-control .lnr-chevron-right {
@@ -2356,7 +2356,7 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
   display: inline-block;
   margin-top: -10px;
   float: right;
-  padding: 15px;
+  padding: 10px;
 }
 
 /* End Single Project */
@@ -2723,6 +2723,13 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
 .comment-log-in {
   font-size: 12px;
   font-weight: 400;
+}
+.font-13{
+  font-size: 13px;
+}
+
+.font-15{
+  font-size: 15px;
 }
 
 /* Comment Form */
